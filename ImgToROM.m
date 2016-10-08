@@ -7,7 +7,7 @@ function [Width, Height, Pixeles] = ImgToROM(img)
     Pixels = 0; % Number of pixels
     
     % Prepare output file
-    filename = strcat(img,'.hex');
+    filename = strcat(img,'.bin');
     file = fopen(filename,'wt');
     
     % Load Image
